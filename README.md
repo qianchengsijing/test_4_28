@@ -90,4 +90,7 @@ void testLinkQueue()
 {
 	LinkQueue Q;
 	InitQueue(Q);
+	EnQueue(&Q,x);
+	DeQueue(&Q,&x);
+	IsEmpty(Q);
 }
